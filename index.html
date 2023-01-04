@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <!-- Links -->
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <form class="form">
+      <input type="text" placeholder="Add To Do" class="todo-input" />
+      <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+    </form>
+    <div class="msgs">
+      <p class="alert remove">Please Enter To Do!</p>
+      <p class="del-msg remove">Deleted Todo</p>
+      <p class="succeed remove">To Do Added</p>
+      <p class="completed-msg remove">Completed Todo</p>
+    </div>
+    <div class="todo-container"></div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

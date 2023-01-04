@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form{
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    padding: 50px;
+}
+
+.form input{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form .add-btn{
+    border: none;
+    margin-left: 5px;
+    background: none;
+    font-size: 18px;
+    border: black 1px solid;    
+    padding: 8px;
+    transition: 0.8s all ease;
+}
+
+.form .add-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.todo-container{
+    margin: 0 auto;
+    width: 300px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px 5px;
+}
+
+.btns{
+    display: flex;
+}
+
+.fa-check{
+    margin-right: 10px;
+}
+
+.fa-check, .fa-trash{
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.fa-check:hover{
+    color: green;
+}
+
+.fa-trash:hover{
+    color: red;
+}
+
+.msgs{
+    text-align: center;
+    font-size: 18px;
+}
+
+.msgs .alert{
+    color: red;
+    font-weight: bold;
+}
+
+.msgs .succeed{
+    color: green;
+    font-weight: bold;
+}
+
+.remove{
+    display: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}

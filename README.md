@@ -1,4 +1,4 @@
 # todo_list
-This is my TO DO WEBSITE and used HTML, CSS and JAVASCRIPT.
+This is my first TO DO WEBSITE. 
 
-Link => https://minthanthtun.github.io/todo_list/
+LINK => https://minthanthtun.github.io/todo_list/
